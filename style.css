@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  /* background-color:rgb(255, 85, 85); */
+  overflow: hidden;
+  background: url("https://wallpaperaccess.com/full/1155041.jpg");
+}
+
+.scene,
+canvas {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.container{
+  position: absolute;
+top:16%;
+left: 5%;
+color: #fff;
+overflow: hidden;
+}
+.container h1{
+  color:bisque;
+}
+.container a{
+color: #fff;
+display:flex;
+flex-direction:column;
+align-items: left;
+/* gap:0.8rem; */
+}
+
+
+
+.ex{
+  color: #fff;
+  /* border: 1px solid #fff; */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  position: absolute;
+  /* left: 20px; */
+
+}
+.exx{
+  position: absolute;
+  left: 56px;
+  color:rgb(241, 238, 234);
+}
+.exxx{
+  position: absolute;
+  left: 56px;
+  top:60%;
+  color:rgb(0, 0, 0);
+
+}
+.exxx small {
+  color:rgb(255, 255, 255);
+
+}
+.x{
+  /* border: 1px solid #000; */
+  position: absolute;
+  left: 75%;
+  top:50%;
+}
+.x form {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
+}
+ .ss a{
+  color:#fff;
+}
+.ss a:hover{
+  color: #fff;
+}
